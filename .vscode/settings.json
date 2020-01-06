@@ -1,0 +1,19 @@
+{
+    "git.enableSmartCommit": true,
+    "editor.largeFileOptimizations": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "schroeter.prettier-vscode-space-parenthesis"
+    },
+    "eslint.enable": false,
+    "debug.node.autoAttach": "on",
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "files.autoSave": "off",
+    "editor.tabSize": 4,
+    "prettier.printWidth": 150,
+    "prettier.useTabs": true,
+    "editor.formatOnSave": true,
+    "prettier.spaceParenthesis": false,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false
+}
