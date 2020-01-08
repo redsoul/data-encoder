@@ -37,9 +37,7 @@ class OneHot extends DataMapper {
         });
 
         return {
-            columns: _.map(this.dictionary, function (value) {
-                return columnName + '_' + value;
-            }),
+            columns: _.map(this.dictionary, (value) => columnName + '_' + value),
             values: oneHotData
         };
     }

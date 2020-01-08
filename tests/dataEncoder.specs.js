@@ -1,15 +1,14 @@
-describe('DataEncoder', () => {
-    const _ = require('lodash');
-    const DataEncoder = require(MODULE_PATH).DataEncoder;
-    const DataMappers = require(MODULE_PATH).DataMappers;
+describe ('DataEncoder', () => {
+  const DataEncoder = require (MODULE_PATH);
+  const DataMappers = require (DATAMAPPER_PATH);
 
-    const OneHot = DataMappers.OneHot;
-    const MinMaxScaller = DataMappers.MinMaxScaller;
-    const CustomBuckets = DataMappers.CustomBuckets;
-    const EqualLengthBuckets = DataMappers.EqualLengthBuckets;
-    const LinearBuckets = DataMappers.LinearBuckets;
-    const FloatParser = DataMappers.FloatParser;
-    const IntegerParser = DataMappers.IntegerParser;
+  const OneHot = DataMappers.OneHot;
+  const MinMaxScaller = DataMappers.MinMaxScaller;
+  const CustomBuckets = DataMappers.CustomBuckets;
+  const EqualLengthBuckets = DataMappers.EqualLengthBuckets;
+  const LinearBuckets = DataMappers.LinearBuckets;
+  const FloatParser = DataMappers.FloatParser;
+  const IntegerParser = DataMappers.IntegerParser;
 
     beforeEach(function () {
 

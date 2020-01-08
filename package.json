@@ -1,6 +1,6 @@
 {
   "name": "data-encoder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Inspired by Pandas and sklearn.preprocessing libraries from Python, this package aims to provide data encoding options, useful in data-science and machine learning projects.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,9 @@
     "One Hot Encoding",
     "Min Max Scaller",
     "Feature Scaling",
-    "Bucketing"
+    "Bucketing",
+    "data manipulation",
+    "preprocessing"
   ],
   "author": "redsoul",
   "license": "Apache",

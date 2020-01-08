@@ -1,4 +1,1 @@
-module.exports = {
-    DataEncoder: require('./src/dataEncoder.js'),
-    DataMappers: require('./src/dataMappers/index.js')
-}
+module.exports = require ('./data-encoder.js');

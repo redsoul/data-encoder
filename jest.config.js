@@ -3,6 +3,7 @@ const MODULE_PATH = __dirname;
 module.exports = {
   globals: {
     MODULE_PATH,
+    DATAMAPPER_PATH: MODULE_PATH + '/data-mappers',
   },
   testRegex: '(/tests/.*|(\\.|/)(specs))\\.js$',
   collectCoverage: true,

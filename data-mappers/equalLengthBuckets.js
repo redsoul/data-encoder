@@ -14,8 +14,11 @@ class EqualLengthBuckets extends CustomBuckets {
      * @returns {Object}
      */
     fitTransform(values, columnName) {
-        const uniqueValues = _.uniq(values);
-        this.boundaries = _.map(_.chunk(uniqueValues, this.bucketCount), (value) => value[1]);
+        this.boundaries = _.chain(values)
+            .uniq()
+            .chunk(this.bucketCount)
+            .map(value => value[1])
+            .value();
         return this.transform(values, columnName);
     }
 
